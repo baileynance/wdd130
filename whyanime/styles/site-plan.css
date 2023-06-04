@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+.logo {
+    background-color: grey;
+    height: 200px;
+    width: 200px;
+}
+
+.font1 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.font2 {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.color1, .primary {
+    color: #C30C09;
+}
+
+.color2, .secondary {
+    color: #0D5F82;
+}
+
+.color3, .accent1 {
+    color: #01BAEF;
+}
+
+.color4, .accent2 {
+    color: #040F16;
+}
+
+.color5 {
+    color: #FBFBFF;
+}
