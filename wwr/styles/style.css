@@ -31,7 +31,7 @@ nav {
 
 nav a {
     text-align: center;
-    color: black;
+    color: #292929;
     text-decoration: none;
     font-family: 'Bebas Neue', sans-serif, Helvetica;
     padding: 35px; 
@@ -134,7 +134,7 @@ header {
 
 footer {
     background-color: rgb(205, 205, 205);
-    color: black;
+    color: #292929;
     font-family: 'Bebas Neue', sans-serif, Helvetica;
     margin-top: 200px;
     display: flex;
@@ -252,12 +252,17 @@ main section img {
 
 /* Page 2 CSS */
 
+.h2gray {
+    color: #292929;
+}
+
 .rivertitle {
     font-size: 60px;
     padding-top: 60px;
     padding-bottom: 40px;
     display: flex;
     justify-content: space-around;
+    color: #292929;
 }
 
 .riverpagecontainer {
@@ -301,7 +306,7 @@ main section img {
     display: flex;
     width: 100%;
     height: auto;
-    border: 10px solid #6f7364;
+    border: 10px solid #113977;
     align-self: center;
 }
 
@@ -309,7 +314,7 @@ main section img {
     display: flex;
     width: 85%;
     height: auto;
-    border: 10px solid #6f7364;
+    border: 10px solid #113977;
     justify-content: left;
     align-self: start;
     margin-top: 70px;
