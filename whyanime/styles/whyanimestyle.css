@@ -1,0 +1,33 @@
+/* Default Fonts/Colors */
+h1, h2, h3, h4, a {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+p {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* Header */
+.logo {
+    width: auto;
+    height: 100px;
+    background-color: black;
+}
+
+/* Footer */
+
+
+/* Home Page */
+.link-box {
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+}
+
+
+/* 2nd Page */
+
+
+
+
+/* Third Page */
