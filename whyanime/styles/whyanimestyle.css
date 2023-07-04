@@ -1,5 +1,5 @@
 /* Default/All Pages */
-#content {
+.content {
     margin: 0 auto;
     max-width: 1600px;
 }
@@ -68,8 +68,7 @@ header nav a {
 }
 
 header nav a:hover {
-    color: #040F16;
-    background-color: #FBFBFF;
+    color: #0D5F82;
 }
 
 .logo {
@@ -109,6 +108,14 @@ footer nav a p {
     color: #FBFBFF;
     font-size: 15px;
     text-decoration: none;
+}
+
+footer nav a p:hover {
+    color: #0D5F82;
+}
+
+.bigthree, .edward-img, .opm-img, .mob-img {
+    border: 5px solid #040F16;
 }
 
 /* Home Page */
@@ -153,7 +160,6 @@ footer nav a p {
 .bigthree {
     width: 900px;
     height: auto;
-    border: 5px solid #040F16;
 }
 
 .bleach-tag {
@@ -229,7 +235,84 @@ footer nav a p {
 
 /* 2nd Page */
 
+.page2-container {
+    display: grid;
+    grid-template: 200px 400px 400px 500px / 1fr;
+}
 
+.page-2-title-section, .edward-section, .p2-p-section, .p2-img-section {
+    padding: 0px 150px;
+}
 
+.page-2-title-section {
+    grid-row: 1/2;
+    padding-top: 120px;
+}
+
+.edward-section {
+    grid-row: 2/3;
+}
+
+.p2-p-section {
+    grid-row: 3/4;
+}
+
+.p2-img-section {
+    grid-row: 4/5;
+}
+
+.edward-img {
+    width: 600px;
+    position: relative;
+}
+
+.fma-tag {
+    position: absolute;
+    top: 135%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.p2-img-cont {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 70px;
+    column-gap: 20px;
+}
+
+.opm-img, .mob-img {
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    object-fit: cover;
+    width: 93%;
+    height: 500px;
+}
+
+.opm-img {
+    object-position: 0 0px;
+    grid-column: 1/2;
+}
+
+.mob-img {
+    object-position: 0 0px;
+    grid-column: 2/3;
+}
+
+.opm-tag {
+    position: absolute;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.mob-tag {
+    position: absolute;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.mob-tag, .opm-tag {
+    top: 330%;
+}
 
 /* Third Page */
